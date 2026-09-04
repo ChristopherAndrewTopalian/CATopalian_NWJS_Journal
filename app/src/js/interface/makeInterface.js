@@ -53,6 +53,7 @@ function makeInterface()
     textInput.style.paddingRight = 10 + 'px';
     textInput.style.border = 'solid 1px rgb(0, 255, 255)';
     textInput.style.borderRadius = '8px';
+    textInput.placeholder = 'Enter Text Here';
     textDiv.append(textInput);
 
     //-//
@@ -73,7 +74,7 @@ function makeInterface()
 //----//
 
 // Dedicated to God the Father
-// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026
 // https://github.com/ChristopherTopalian
 // https://github.com/ChristopherAndrewTopalian
 // https://sites.google.com/view/CollegeOfScripting

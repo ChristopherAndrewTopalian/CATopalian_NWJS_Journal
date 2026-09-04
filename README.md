@@ -1,7 +1,7 @@
-# CATopalian JavaScript NW.js Journal
+# CATopalian NWJS Journal
 A JavaScript NW.js Node.js application that allows the person to input a text entry, which is then automatically given a date time code and appended to the text file.
 
-![screenshot_001](CATopalian_JavaScript_NW.js_Journal/src/media/textures/screenshots/001.PNG)
+![screenshot_001](app/src/media/textures/screenshots/001.PNG)
 
 ---
 
@@ -16,7 +16,7 @@ To run this application we:
 * Download NW.js
 * Extract All
 * Find the nw.exe icon
-* Drag the folder named CATopalian_JavaScript_NW.js_Journal onto the nw.exe icon  
+* Drag the folder named **app** onto the **nw.exe** icon  
 
 Full Instructions on Running our app here: https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_NW.js
 
@@ -27,9 +27,17 @@ Full Instructions on Running our app here: https://github.com/ChristopherAndrewT
 2. Choose Download ZIP
 3. Save the Zip File
 4. Extract All
-5. Double click the HTML file to start the App
+5. Drag the folder named **app** onto the nw.exe icon 
 
 ---
 
 Happy Scripting :-)
+
+---
+
+// Dedicated to God the Father  
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026  
+// https://github.com/ChristopherAndrewTopalian  
+// https://github.com/ChristopherTopalian  
+// https://sites.google.com/view/CollegeOfScripting
 

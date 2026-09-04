@@ -1,0 +1,17 @@
+{
+    "name": "catopalian-nwjs-journal",
+    "version": "1.0.1",
+    "description": "A Text Journal App",
+    "main": "index.html",
+    "window":
+    {
+        "title": "CATopalian NWJS Journal",
+        "icon": "src/media/textures/icons/catopalian_true_ai.png",
+        "width": 1280,
+        "height": 720,
+        "position": "center",
+        "resizable": true,
+        "frame": true
+    },
+    "nodejs": true
+}
