@@ -16,9 +16,9 @@ function makeInterface()
 
     let theTitle = ce('a');
     theTitle.id = 'theTitle';
-    theTitle.href = 'https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_NW.js_Journal';
+    theTitle.href = 'https://github.com/ChristopherAndrewTopalian/CATopalian_NWJS_Journal';
     theTitle.target = '_blank';
-    theTitle.textContent = 'CATopalian JavaScript NW.js Journal';
+    theTitle.textContent = 'CATopalian NWJS Journal';
     theTitle.style.margin = '4px';
     theTitle.style.fontSize = '15px';
     theTitle.style.fontFamily = 'Arial';
