@@ -1,14 +1,13 @@
-// whenLoaded
+// nwjsCheck.js
 
-function whenLoaded()
+function isNWJS()
 {
-    if (!isNWJS())
+    // NW.js always exposes the nw object on the window
+    if (typeof nw !== 'undefined' && typeof nw.require === 'function')
     {
-        showNWJSWarning();
-        return;   // stops everything if in a normal browser (non nw.js) - no thinking, no memory, nothing starts
+        return true;
     }
-
-    makeInterface();
+    return false;
 }
 
 //----//
