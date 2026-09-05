@@ -5,7 +5,7 @@ function whenLoaded()
     if (!isNWJS())
     {
         showNWJSWarning();
-        return;   // stops everything if in a normal browser (non nw.js) - no thinking, no memory, nothing starts
+        return;   // stops everything if in a normal browser (non nw.js)
     }
 
     makeInterface();
