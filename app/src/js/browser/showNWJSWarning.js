@@ -45,6 +45,14 @@ function showNWJSWarning()
 
     warningDiv.append(ce('hr'));
 
+    //-//
+
+    let videoTutorial = ce('video');
+    videoTutorial.src = 'src/tutorials/instructions.mp4';
+    videoTutorial.style.width = '400px';
+    videoTutorial.controls = 'true';
+    warningDiv.append(videoTutorial);
+
     let footer = ce('div');
     footer.id = 'warningFooter';
     footer.textContent = '(c) 2000 - 2026 Christopher Andrew Topalian - All Rights Reserved';
